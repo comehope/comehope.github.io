@@ -21,9 +21,11 @@ imagePath: /assets/images/2016-11-15-replace-evernote-with-gitbook
 Gitbook 运行在 Node.js 环境，是使用 markdown 排版的笔记工具。
 
 在 Node.js 环境下通过 NPM 安装：
+
 > $ npm install gitbook-cli -g
 
 安装完成后，建一个新目录，运行初始化命令：
+
 > $ gitbook init
 
 此命令执行完毕后，自动生成2个文件，其中 README.md 是笔记的介绍页，SUMMARY.md 是笔记的目录页，由它链接至各篇笔记。
@@ -42,6 +44,7 @@ Gitbook 运行在 Node.js 环境，是使用 markdown 排版的笔记工具。
 * 如果你需要管理笔记的历史记录，就把它们保存到版本库中，如果你的笔记是开源的，就保存到 Github 上，如果是闭源的，就保存到自己的服务器上或者 Bitbucket 上。
 
 * 如果你想把笔记发布到网站上，可以把笔记转换为网页格式，生成的文件保存在 _book 目录下：
+
 > $ gitbook build
 
 ![gitbook的build命令]({{page.imagePath}}/gitbook-build.png)
