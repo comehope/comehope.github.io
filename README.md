@@ -1,6 +1,6 @@
 # 张偶的博客
 
-由此阅读：[zhang-ou.com](http://www.zhang-ou.com/)
+由此阅读：[www.zhang-ou.com](http://www.zhang-ou.com/)
 
 ## 运行环境
 
