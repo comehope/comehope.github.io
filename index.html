@@ -17,11 +17,11 @@ layout: default
 {% else %}
 {% for post in site.posts %}
   <div class="list-item">
-    <h2 class="list-post-title">
+    <h3 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    </h3>
     <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </div>
   </div>
 {% endfor %}
