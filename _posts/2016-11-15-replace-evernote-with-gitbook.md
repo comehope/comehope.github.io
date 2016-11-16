@@ -6,7 +6,7 @@ imagePath: /assets/images/2016-11-15-replace-evernote-with-gitbook
 
 ### 恼人的 Evernote
 
-用 Evernote 有2年多了，但是有几个问题让我一起很头疼：
+用 Evernote 有2年多了，但是有几个问题让我一直很头疼：
 
 * 没有只读功能：导致偶尔会误改笔记，但其实有一些笔记真的是永远都不用改了，比如日记。而且误改了再改回来之后，笔记的编辑日期就变了，再按日期排序时顺序也跟着乱了。
 
