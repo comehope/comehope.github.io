@@ -1,7 +1,6 @@
 ---
 title: 如何移交 Bitbucket 项目
-permalink: /:year/:month/:day/how-to-transfer-a-bitbucket-repository.html
-imagePath: /assets/images/2016-11-10-bitbucket-transfer
+imagePath: /assets/images/2016-11-10-how-to-transfer-a-bitbucket-repository
 ---
 
 Bitbucket 允许你把项目移交给朋友或同事，移交的意思是指转移所有权，移交之后这个项目就在对方名下了。当你的项目不再亲自维护，要交给一个信得过的人帮你继续维护时，就会用到这个功能。

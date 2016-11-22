@@ -1,6 +1,5 @@
 ---
 title: 用 Gitbook 替代 Evernote 搭建私人记事本
-permalink: /:year/:month/:day/replace-evernote-with-gitbook.html
 imagePath: /assets/images/2016-11-15-replace-evernote-with-gitbook
 ---
 

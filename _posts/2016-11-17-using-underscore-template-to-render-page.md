@@ -1,6 +1,5 @@
 ---
 title: 用 Underscore.js 模板渲染页面
-permalink: /:year/:month/:day/using-underscore-template-to-render-page.html
 imagePath: /assets/images/2016-11-17-using-underscore-template-to-render-page
 demoPath: http://www.zhang-ou.com/exercises/underscore-template
 ---

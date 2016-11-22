@@ -1,6 +1,5 @@
 ---
 title: 深入浅出学 Git 之一，Githug 第1至第10关详解
-permalink: /:year/:month/:day/learning-git-through-githug-part-1-level-1-to-10.html
 imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-1-level-1-to-10
 ---
 
