@@ -4,13 +4,15 @@
 
 ## 更新日志
 
-* **v1.03** [2016-11-22] 发表[《深入浅出学 Git 之一，Githug 第1至第10关详解》]()
+* **v1.04** [2016-11-24] 发表[《深入浅出学 Git 之二，Githug 第11至第20关详解》](http://www.zhang-ou.com/2016/11/24/learning-git-through-githug-part-2-level-11-to-20.html)
 
-* **v1.02** [2016-11-17] 发表[《用 Underscore.js 模板渲染页面》]()
+* **v1.03** [2016-11-22] 发表[《深入浅出学 Git 之一，Githug 第1至第10关详解》](http://www.zhang-ou.com/2016/11/22/learning-git-through-githug-part-1-level-1-to-10.html)
 
-* **v1.01** [2016-11-15] 发表[《用 Gitbook 替代 Evernote 搭建私人记事本》]()
+* **v1.02** [2016-11-17] 发表[《用 Underscore.js 模板渲染页面》](http://www.zhang-ou.com/2016/11/17/using-underscore-template-to-render-page.html)
 
-* **v1.00** [2016-11-10] 创建博客，发表[《如何移交 Bitbucket 项目》]()
+* **v1.01** [2016-11-15] 发表[《用 Gitbook 替代 Evernote 搭建私人记事本》](http://www.zhang-ou.com/2016/11/15/replace-evernote-with-gitbook.html)
+
+* **v1.00** [2016-11-10] 创建博客，发表[《如何移交 Bitbucket 项目》](http://www.zhang-ou.com/2016/11/10/how-to-transfer-a-bitbucket-repository.html)
 
 ## 运行环境
 
