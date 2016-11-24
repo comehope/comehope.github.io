@@ -1,29 +1,8 @@
 ---
-title: 深入浅出学 Git 之三，Githug 第21至第30关详解
-imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-3-level-21-to-30
+title: 深入浅出学 Git（草稿）
 ---
 
 # Githug
-
-### 第21关 reset
-
-### 第22关 reset_soft
-
-### 第23关 checkout_file
-
-### 第24关 remote
-
-### 第25关 remote_url
-
-### 第26关 pull
-
-### 第27关 remote_add
-
-### 第28关 push
-
-### 第29关 diff
-
-### 第30关 blame
 
 ### 第31关 branch
 
@@ -75,5 +54,5 @@ imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-3-level-21
 
 ### 第55关 contribute
 
-### 技巧
-用 ruby 写一个跳到某一关的脚本
+### 总结
+用表格列出每一关的考核点和命令
