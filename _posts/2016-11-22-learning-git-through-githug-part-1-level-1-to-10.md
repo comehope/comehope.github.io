@@ -34,7 +34,7 @@ $ gem install githug
 
 因为第1关还没过，所以用红字警告 "Sorry, this solution is not quite right!"（任务还没有完全解决呢），给出的提示是 "You can type 'git' in your shell to get a list of available git commands."（先用 'git' 命令列出常用命令看看吧）。
 
-### 第1关 hint
+### 第1关 init
 
 > A new directory, ‘git_hug’, has been created; initialize an empty repository in it.
 > 
