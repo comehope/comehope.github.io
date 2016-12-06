@@ -34,7 +34,7 @@ $ gem install githug
 
 因为第1关还没过，所以用红字警告 "Sorry, this solution is not quite right!"（任务还没有完全解决呢），给出的提示是 "You can type 'git' in your shell to get a list of available git commands."（先用 'git' 命令列出常用命令看看吧）。
 
-### 第1关 hint
+### 第1关 init
 
 > A new directory, ‘git_hug’, has been created; initialize an empty repository in it.
 > 
@@ -157,7 +157,7 @@ $ git clone http://remote.repo.url
 要是你想把克隆到本地的仓库命名为一个和远程仓库不一样的目录名，就在 `git clone` 的后面追加一个自定义的目录名，像这样：
 
 ```
-$ git clone your-folder
+$ git clone http://remote.repo.url your-folder
 ```
 
 第6关过关画面如下：
