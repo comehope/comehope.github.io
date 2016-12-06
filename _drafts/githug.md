@@ -1,5 +1,6 @@
 ---
-title: 深入浅出学 Git（草稿）
+title: 深入浅出学 Git 之三，Githug 第31关以后
+imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-3-level-21-to-30
 ---
 
 # Githug
@@ -55,4 +56,4 @@ title: 深入浅出学 Git（草稿）
 ### 第55关 contribute
 
 ### 总结
-用表格列出每一关的考核点和命令
+用表格形式列出每一关的考核点、命令（含、Pro Git网址
