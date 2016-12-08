@@ -65,9 +65,9 @@ $ git init
 查看指定的配置信息用 `--get` 参数，如：
 
 ```
-$ git config --get --local user.name
-$ git config --get --global user.name
-$ git config --get user.name
+$ git config --get --local user.name your-name
+$ git config --get --global user.name your-name
+$ git config --get user.name your-name
 ```
 
 第1条命令是查看本地配置的用户名，第2条命令是查看全局配置的用户名，第3条命令是查看优先级最高的用户名，如果有本地配置项，就读取本地配置项，如果没有本地配置项，就读取全局配置项。
@@ -103,7 +103,7 @@ $ git conifg --add user.name
 ```
 $ git add README
 $ git add *.md
-$ git add .
+$ git add -A
 ```
 
 第1条命令表示把 README 这个文件添加到暂存区，第2条命令表示把 md 扩展名的文件都添加到暂存区，第3条命令表示把所有没加到暂存区的文件都添加到暂存区。
