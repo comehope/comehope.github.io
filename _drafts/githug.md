@@ -56,4 +56,4 @@ imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-3-level-21
 ### 第55关 contribute
 
 ### 总结
-用表格形式列出每一关的考核点、命令（含、Pro Git网址
+用表格形式列出每一关的考核点、命令（含、Pro Git网址）、前置知识
