@@ -4,6 +4,8 @@
 
 ## 更新日志
 
+* **v1.05** [2016-12-16] 发表[《深入浅出学 Git 之三，Githug 第21至第30关详解》](http://www.zhang-ou.com/2016/12/16/learning-git-through-githug-part-3-level-21-to-30.html)
+
 * **v1.04** [2016-11-24] 发表[《深入浅出学 Git 之二，Githug 第11至第20关详解》](http://www.zhang-ou.com/2016/11/24/learning-git-through-githug-part-2-level-11-to-20.html)
 
 * **v1.03** [2016-11-22] 发表[《深入浅出学 Git 之一，Githug 第1至第10关详解》](http://www.zhang-ou.com/2016/11/22/learning-git-through-githug-part-1-level-1-to-10.html)

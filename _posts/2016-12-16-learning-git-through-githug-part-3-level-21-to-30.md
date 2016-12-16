@@ -1,6 +1,6 @@
 ---
 title: 深入浅出学 Git 之三，Githug 第21至第30关详解
-imagePath: /assets/images/2016-11-xx-learning-git-through-githug-part-2-level-21-to-30
+imagePath: /assets/images/2016-12-16-learning-git-through-githug-part-3-level-21-to-30
 ---
 
 ### 第21关 reset
@@ -57,7 +57,7 @@ $ git reset --soft HEAD^
 $ git checkout your-file
 ```
 
-Git 会用最后一次提交的文件覆盖掉工作目录中的同名文件。但做这个操作一定要谨慎，因为这个操作是不可以被撤销的，你修改过的内容是找不回来的。
+Git 会用最后一次提交的文件覆盖掉工作目录中的同名文件。但做这个操作一定要谨慎，因为这个操作是不可以被撤销的，执行之后你修改过的内容就找不回来了。
 
 第23关过关画面如下：
 
@@ -112,7 +112,7 @@ $ git remote -v
 当有多人合作一起开发一个项目时，就不止是你一个人向远程仓库提交代码了，你的伙伴也会向远程仓库提交代码。为了得到远程仓库的最新内容，要用下面的命令把内容抓下来：
 
 ```
-git pull remote-name branch-name
+$ git pull remote-name branch-name
 ```
 
 其中，remote-name 是远程仓库的名字，branch-name 是远程仓库的分支名字，如果是主干，那就是 master。该命令执行之后，远程仓库的代码会自动合并到本地项目中。
@@ -129,7 +129,7 @@ git pull remote-name branch-name
 
 在第25关，我们用 `git remote -v` 列出了多个远程仓库的地址，那这些地址是怎么添加的呢？
 
-如果你的项目是 clone 来的，那么 Git 会自动把 clone 的源仓库地址命名为 origin，之后再添加别的远程仓库时，用下面的命令：
+如果你的项目是 clone 来的，那么 Git 会并把 clone 命令的仓库地址保存下来。如果要手工添加远程仓库，请用下面的命令：
 
 ```
 git remote add remote-name remote-url
@@ -171,4 +171,71 @@ $ git push
 
 ### 第29关 diff
 
+> There have been modifications to the 'app.rb' file since your last commit. Find out whick line has changed.
+> 
+> 最后一次提交之后，你又修改了 'app.rb' 这个文件。找到哪一行被修改过。
+
+如果仓库中的文件被修改过，它的状态就变为 'modified'，可以使用下面的命令查看被修改的细节：
+
+```
+$ git diff
+$ git diff your-file
+```
+
+第1条命令是列出所有被修改过的文件的细节，第2条命令是列出指定文件的被修改过的细节。
+
+比如，你有一个名为 a.txt 的文件，内容如下：
+
+```
+a1
+a2
+a3
+a4
+a5
+a6
+a7
+a8
+a9
+```
+
+然后，你把其中的 'a5' 改成了 'bbb5'，内容变成：
+
+```
+a1
+a2
+a3
+a4
+bbb5
+a6
+a7
+a8
+a9
+```
+
+那么 `git diff` 的结果是这样的:
+
+![git diff 的结果]({{page.imagePath}}/level-29-diff-git-diff-result.png)
+
+其中 `@@ -2,7 +2,7 @@` 表示修改的内容是从第2行至第7行，接下来列出第2行至第7行的内容（其实只修改了第5行这1行，但会列出这1行的前3行和后3行）。其中红色的 `-a5` 和绿色的 `+bbb5` 表示把 'a5' 改为了 'bbb5'。
+
+第29关过关画面如下：
+
+![第29关 diff]({{page.imagePath}}/level-29-diff.png)
+
 ### 第30关 blame
+
+> Someone has put a password inside the file 'config.rb' find out who it was.
+> 
+> 有人在 'config.rb' 中植入了一个密码，请找出这是谁干的。
+
+当系统曝出 bug 或者漏洞，要查清问题的来源时，首先定位问题代码，其次定位是谁引入了错误。Git 记录了详细的更新日志，所以通过 Git 提供的一个专门的命令就可以定位开发者：
+
+```
+$ git blame your-file
+```
+
+在结果中会列出指定文件的所有代码，每行代码的左侧会列出它最后一次被更新时的 HASH 值、开发者和时间，通过这些信息，你就可以分析每一行代码被谁编辑过了。
+
+第30关过关画面如下：
+
+![第30关 blame]({{page.imagePath}}/level-30-blame.png)
