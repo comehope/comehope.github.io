@@ -1,43 +1,52 @@
 ---
-title: 深入浅出学 Git 之三，Githug 第31关以后
-imagePath: /assets/images/2016-11-22-learning-git-through-githug-part-3-level-21-to-30
+title: 深入浅出学 Git
 ---
-
-# Githug
-
-### 第31关 branch
-
-### 第32关 checkout
-
-### 第33关 checkout_tag
-
-### 第34关 checkout_tag_over_branch
-
-### 第35关 branch_at
-
-### 第36关 delete_branch
-
-### 第37关 push_branch
-
-### 第38关 merge
-
-### 第39关 fetch
-
-### 第40关 rebase
 
 ### 第41关 repack
 
+> Optimise how your repository is packaged ensuring that redundant packs are removed.
+
+git repack -d
+
 ### 第42关 cherry-pick
+
+> Your new feature isn't worth the time and you're going to delete it. But it has one commit that fills in `README` file, and you want this commit to be on the master as well.
+
+git cherry-pick ca32a6dac7
 
 ### 第43关 grep
 
+> Your project's deadline approaches, you should evaluate how many TODOs are left in your code
+
+git grep TODO
+
 ### 第44关 rename_commit
+
+> Correct the typo in the message of your first (non-root) commit.
+
+git rebase -i HEAD~2
+reword
 
 ### 第45关 squash
 
+> You have committed several times but would like all those changes to be one commit.
+
+git rebase -i commit-id
+squash
+
 ### 第46关 merge_squash
 
+> Merge all commits from the long-feature-branch as a single commit.
+
+git merge --squash long-feature-branch
+git commit -m "ok"
+
 ### 第47关 reorder
+
+> You have committed several times but in the wrong order. Please reorder your commits.
+
+git rebase -i commit-id
+直接编辑顺序
 
 ### 第48关 bisect
 
