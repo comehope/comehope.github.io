@@ -65,9 +65,9 @@ $ git init
 查看指定的配置信息用 `--get` 参数，如：
 
 ```
-$ git config --get --local user.name your-name
-$ git config --get --global user.name your-name
-$ git config --get user.name your-name
+$ git config --get --local user.name
+$ git config --get --global user.name
+$ git config --get user.name
 ```
 
 第1条命令是查看本地配置的用户名，第2条命令是查看全局配置的用户名，第3条命令是查看优先级最高的用户名，如果有本地配置项，就读取本地配置项，如果没有本地配置项，就读取全局配置项。
@@ -75,9 +75,9 @@ $ git config --get user.name your-name
 增加配置信息用 `--add` 参数，如：
 
 ```
-$ git config --add --local user.name
-$ git config --add --global user.name
-$ git conifg --add user.name
+$ git config --add --local user.name your-name
+$ git config --add --global user.name your-name
+$ git conifg --add user.name your-name
 ```
 
 第1条命令是在本地配置中增加用户名，第2条命令是在全局配置中增加用户名，第3条命令和第1条命令相同，也是在本地配置中增加用户名。
