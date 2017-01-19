@@ -1,5 +1,5 @@
 ---
-title: 用 Gitbook 替代 Evernote 搭建私人记事本
+title: 用 Gitbook 搭建私人笔记本
 imagePath: /assets/images/2016-11-15-replace-evernote-with-gitbook
 ---
 
@@ -30,6 +30,7 @@ Gitbook 运行在 Node.js 环境，是使用 markdown 排版的笔记工具。
 此命令执行完毕后，自动生成2个文件，其中 README.md 是笔记的介绍页，SUMMARY.md 是笔记的目录页，由它链接至各篇笔记。
 
 接下来，你可以启动一个运行在 4000端口下的 web 服务来浏览笔记：
+
 > $ gitbook serve
 
 ![gitbook的init和serve命令]({{page.imagePath}}/gitbook-init-and-serve.png)
