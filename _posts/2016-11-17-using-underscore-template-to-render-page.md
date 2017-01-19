@@ -1,7 +1,6 @@
 ---
 title: 用 Underscore.js 模板渲染页面
 imagePath: /assets/images/2016-11-17-using-underscore-template-to-render-page
-demoPath: http://www.zhang-ou.com/exercises/underscore-template
 ---
 
 Underscore.js 有一个 template 函数，用于渲染页面，下面我们将通过一个实例来学习如何使用它。
@@ -71,7 +70,7 @@ document.getElementById('content').innerHTML = compiled(data);
 
 第1行语句把 script 标签封装的模板内容作为参数传递给 template 函数，得到一个新的函数；第2行语句把 JSON 数据作为参数传递给新函数 compiled，得到渲染后的 HTML，再把 HTML 填充到页面中预留的内容区。
 
-运行效果如下：[（点此查看 live 实例）]({{page.demoPath}}/step-1-object.html)
+运行效果如下：[（点此查看 live 实例）](https://codepen.io/comehope/pen/eBeWMb)
 
 ![渲染对象数据的运行效果]({{page.imagePath}}/step-1-object.png)
 
@@ -105,7 +104,7 @@ document.getElementById('content').innerHTML = compiled(data);
 
 当要在模板中执行 JavaScript 代码时，要用 <% xxx %> 的方式把代码包围起来，比如上面的 forEach 循环语句。
 
-运行效果如下：[（点此查看 live 实例）]({{page.demoPath}}/step-2-array.html)
+运行效果如下：[（点此查看 live 实例）](https://codepen.io/comehope/pen/LxxjKa)
 
 ![渲染数组数据的运行效果]({{page.imagePath}}/step-2-array.png)
 
@@ -141,7 +140,7 @@ document.getElementById('content').innerHTML = compiled(data);
 
 折后价的表达式是 Number.parseInt(item.price * promotion.discount)。
 
-运行效果如下：[（点此查看 live 实例）]({{page.demoPath}}/step-3-execution.html)
+运行效果如下：[（点此查看 live 实例）](https://codepen.io/comehope/pen/EZZwYd)
 
 ![渲染过程中运算的效果]({{page.imagePath}}/step-3-execution.png)
 
