@@ -1,6 +1,6 @@
 ---
 title: 深入浅出学 Git 之五，Githug 第41至第50关详解
-imagePath: /assets/images/githug-part-5
+imagePath: /assets/images/2017-01-23-learning-git-through-githug-part-5-level-41-to-50
 ---
 
 ### 第41关 repack
