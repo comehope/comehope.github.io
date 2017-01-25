@@ -35,7 +35,7 @@ pack-b7b37f445a40715c249bf8c0df9631e9fd6c8f4b.pack
 
 第41关过关画面如下：
 
-![第41关 branch]({{page.imagePath}}/level-41-repack.png)
+![第41关 repack]({{page.imagePath}}/level-41-repack.png)
 
 ### 第42关 cherry-pick
 
@@ -402,7 +402,7 @@ f608824888b83b First commit
 
 第48关过关画面如下：
 
-![第48关 reorder]({{page.imagePath}}/level-48-bisect.png)
+![第48关 bisect]({{page.imagePath}}/level-48-bisect.png)
 
 ### 第49关 stage_lines
 
@@ -436,7 +436,7 @@ index 1a271e9..4a80dda 100644
 
 第49关过关画面如下：
 
-![第49关 reorder]({{page.imagePath}}/level-49-stage-lines.png)
+![第49关 stage_lines]({{page.imagePath}}/level-49-stage-lines.png)
 
 ### 第50关 find\_old\_branch
 
@@ -461,4 +461,4 @@ $ git reflog
 
 第50关过关画面如下：
 
-![第50关 reorder]({{page.imagePath}}/level-50-find-old-branch.png)
+![第50关 find_old_branch]({{page.imagePath}}/level-50-find-old-branch.png)
