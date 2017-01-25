@@ -1,5 +1,5 @@
 ---
-title: 深入浅出学 Git
+title: 深入浅出学 Git 之六，Githug 第51至第55关详解
 imagePath: /assets/images/2017-01-24-learning-git-through-githug-part-6-level-51-to-55
 ---
 
