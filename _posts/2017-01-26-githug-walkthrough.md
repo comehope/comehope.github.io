@@ -2,7 +2,7 @@
 title: Githug 通关攻略
 ---
 
-![图书封面](https://githug.zhang-ou.com/images/cover.jpg)
+![图书封面](https://githug.zhang-ou.com/cover/cover.jpg)
 
 [Githug](https://github.com/Gazler/githug) 是一个学习 Git 的游戏，让你在游戏中轻松学习和理解 Git 的强大功能。
 
