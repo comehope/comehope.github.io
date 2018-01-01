@@ -33,11 +33,11 @@ body {
 
 a {
   color: #268bd2;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -59,7 +59,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 h4, h5, h6 {
@@ -356,18 +357,23 @@ tbody tr:nth-child(odd) th {
 
     a {
       color: #333;
+      text-decoration: underline;
 
       &:hover,
       &:focus {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
   &-post-date {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: .75rem;
     text-transform: uppercase;
   }
+}
+
+.list-item {
+  margin-bottom: 2em;
 }
 
 .projects-list {

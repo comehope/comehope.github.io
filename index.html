@@ -3,16 +3,26 @@ layout: default
 ---
 <header class="masthead">
   <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">张偶<span>的博客</span></a>
+    张偶<span>的网络日志</span>
   </h1>
   <nav class="masthead-nav">
-    {% for nav in site.nav %}
+    <!-- {% for nav in site.nav %}
     <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
+    {% endfor %} -->
   </nav>
 </header>
 <div class="content list">
-{% if site.posts.size == 0 %}
+  <div class="list-item">
+    <div class="list-post-date">
+      <time>2018-1-1</time>
+    </div>
+    <h3 class="list-post-title">
+      翻译了 MDN 的词条：
+      <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-decoration-color" target="_blank">text-decoration-color</a>
+    </h3>
+  </div>
+
+<!-- {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
 {% for post in site.posts %}
@@ -25,5 +35,5 @@ layout: default
     </div>
   </div>
 {% endfor %}
-{% endif %}
+{% endif %} -->
 </div>
