@@ -1,4 +1,4 @@
-# 张偶的博客
+# 张偶的网络日志
 
 由此阅读：[www.zhang-ou.com](http://www.zhang-ou.com/)
 
