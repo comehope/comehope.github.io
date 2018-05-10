@@ -1,6 +1,6 @@
 html,
 body {
-	background-color: skyblue;
+	background-color: lightskyblue;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -60,7 +60,7 @@ h2 {
 	transition: 0.3s;
 }
 
-.links img.segmentfault {
+.links img.colorful {
 	filter: grayscale(1);
 }
 
