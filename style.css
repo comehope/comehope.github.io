@@ -1,11 +1,13 @@
 html,
 body {
-	background-color: steelblue;
+	background-color: lightskyblue;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: sans-serif;
+	color: white;
+	overflow: hidden;
 }
 
 .main {
@@ -14,12 +16,13 @@ body {
 	box-shadow: -4em 0 6em -6em black,
 				4em 0 6em -6em black;
 	width: 100%;
+	max-width: 600px;
 	min-width: 250px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: lightskyblue;
+	background-color: steelblue;
 }
 
 .avatar {
