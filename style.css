@@ -1,74 +1,135 @@
-html,
+body, h1, p {
+	margin: 0;
+}
+
+:root {
+	--avatar-size: 5em;
+	--page-back-color: lightskyblue;
+}
+
 body {
-	background-color: lightskyblue;
-	height: 100%;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: sans-serif;
 	color: white;
-	overflow: hidden;
+	background-color: var(--page-back-color);
 }
 
-.main {
-	height: 60vh;
-	padding: 5em;
-	box-shadow: -4em 0 6em -6em black,
-				4em 0 6em -6em black;
-	width: 100%;
-	max-width: 600px;
-	min-width: 250px;
+main {
+	height: 75vh;
+	min-height: 550px;
+	width: 90%;
+	max-width: 500px;
+	min-width: 300px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	position: relative;
+}
+
+/* container box */
+main::before {
+	content: '';
+	width: 100%;
+	height: calc(100% - var(--avatar-size));
+	position: absolute;
+	top: var(--avatar-size);
 	background-color: steelblue;
+	border-radius: 0.5em;
+	z-index: -1;
+	box-shadow: -4em 0 6em -6em black,
+				4em 0 6em -6em black;
 }
 
-.avatar {
-	width: 10em;
-	opacity: 1000;
-	border-radius: 50%;
+main > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-h1 {
+.name {flex: 50;}
+.nickname {flex: 5;}
+.summary {flex: 5;}
+.description {flex: 20;}
+.links {flex: 20;}
+
+.name {
+	width: 100%;
 	letter-spacing: 0.1em;
 	text-align: center;
-}
-
-h2 {
-	font-size: 1em;
 	font-weight: normal;
-	margin: 0;
+	position: relative;
+	top: 3em;
 }
 
-.desc {
+/* avatar  */
+.name::before {
+	content: '';
+	width: var(--avatar-size);
+	height: var(--avatar-size);
+	background: url(images/avatar.jpg) no-repeat;
+	background-size: var(--avatar-size);
+	border-radius: 50%;
+	position: absolute;
+	top: -25%;
+	box-shadow: 0 0 0.2em 0.1em hsl(0, 0%, 0%, 20%);
+}
+
+.nickname,
+.summary {
+	font-size: 1.1em;
+}
+
+.description p {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	font-weight: lighter;
+	line-height: 2em;
+}
+
+.description p a {
+	color: inherit;
+	text-decoration: underline wavy var(--page-back-color);
+}
+
+.description p a:hover {
+	text-decoration: underline wavy deepskyblue;
 }
 
 .links {
-	padding: 0;
-	margin: 0;
+	width: 50%;
+	justify-content: space-around;
 }
 
-.links li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px;
-}
-
-.links img {
-	width: 30px;
+.links a {
+	width: 2em;
+	height: 2em;
+	background: var(--url) no-repeat;
+	background-size: 2em;
+	text-indent: -1000em;
 	transition: 0.3s;
 }
 
-.links img.colorful {
-	filter: grayscale(1);
-}
+.links a.github {--url: url(images/github.svg);}
+.links a.codepen {--url: url(images/codepen.svg);}
+.links a.weibo {--url: url(images/weibo.png);}
+.links a.segmentfault {--url: url(images/segmentfault.png);}
 
-.links img:hover {
+.links a:hover {
 	transform: scale(1.2);
-	transition: 0.3s;
+}
+
+@media (max-width: 400px) {
+	:root {
+		--avatar-size: 4em;
+	}
+
+	.description p {
+		font-size: 0.8em;
+	}
+
+	.links {
+		width: 75%;
+	}
 }
